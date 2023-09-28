@@ -1,0 +1,1096 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 192rem;
+}.price-calculator-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  background-color: #ffffff;
+}
+.price-calculator-container .pricing-options {
+  width: 192rem;
+  height: 295.0263rem;
+  position: relative;
+  border-top: solid 0.1rem rgba(62, 38, 120, 0.6000000238);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option {
+  box-sizing: border-box;
+  padding: 5.9rem 36.186rem 0rem 35.65rem;
+  width: 192rem;
+  height: 286.9263rem;
+  position: absolute;
+  left: 0;
+  top: 8.052rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details {
+  margin: 0rem 0.214rem 5.145rem 0rem;
+  width: calc(100% - 0.2142rem);
+  height: 39.4552rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-header {
+  margin-right: 15.85rem;
+  width: 59.1rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-header .pricing-title {
+  margin-bottom: 5.9451rem;
+  max-width: 59.1rem;
+  font-size: 6.777rem;
+  font-weight: 700;
+  line-height: 1.2000000225;
+  color: #3e2678;
+  font-family: Inter, 'Source Sans Pro';
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-header .pricing-subtitle {
+  margin: 0rem 0rem 3.91rem 0.1rem;
+  font-size: 2.589rem;
+  font-weight: 700;
+  line-height: 1.3999999705;
+  color: #6c6a72;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-header .pricing-disclaimers {
+  margin: 0rem 14.9rem 0rem 0.1rem;
+  width: calc(100% - 15rem);
+  height: 9.6rem;
+  display: flex;
+  align-items: center;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-header .pricing-disclaimers .disclaimer-group {
+  box-sizing: border-box;
+  padding-right: 3.6rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-header .pricing-disclaimers .disclaimer-group .check-icons-group {
+  margin: 0.676rem 1rem 1.065rem 0rem;
+  height: calc(100% - 1.7417rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-header .pricing-disclaimers .disclaimer-group .check-icons-group .check-icon {
+  margin-bottom: 1.0542rem;
+  width: 2rem;
+  height: 1.9167rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-header .pricing-disclaimers .disclaimer-group .check-icons-group .check-icon {
+  margin-bottom: 1.0542rem;
+  width: 2rem;
+  height: 1.9167rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-header .pricing-disclaimers .disclaimer-group .check-icons-group .check-icon {
+  width: 2rem;
+  height: 1.9167rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-header .pricing-disclaimers .disclaimer-group .disclaimer-text {
+  max-width: 17.7rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2;
+  color: #86838b;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-header .pricing-disclaimers .check-icons-group {
+  width: 19.8rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-header .pricing-disclaimers .check-icons-group .check-icon {
+  width: 2rem;
+  height: 1.9167rem;
+  position: absolute;
+  left: 0;
+  top: 0.6354rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-header .pricing-disclaimers .check-icons-group .check-icon {
+  width: 2rem;
+  height: 1.9167rem;
+  position: absolute;
+  left: 0;
+  top: 3.6063rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-header .pricing-disclaimers .check-icons-group .feature-info-group {
+  width: 19.5158rem;
+  height: 9.6rem;
+  position: absolute;
+  left: 0.2842rem;
+  top: 0;
+  display: flex;
+  align-items: flex-end;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-header .pricing-disclaimers .check-icons-group .feature-info-group .feature-vector {
+  margin: 0rem 1.25rem 1.314rem 0rem;
+  width: 1.4658rem;
+  height: 1.0709rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-header .pricing-disclaimers .check-icons-group .feature-info-group .feature-text {
+  max-width: 16.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2;
+  color: #86838b;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-widget {
+  margin: 2rem 0rem 1rem 0rem;
+  width: 45rem;
+  height: calc(100% - 3rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.05rem #3e2678;
+  box-sizing: border-box;
+  box-shadow: 0 0.4rem 1.4rem rgba(0, 0, 0, 0.150000006);
+  background-color: #ffffff;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-widget .login-count {
+  box-sizing: border-box;
+  padding: 2.672rem 3rem 1.849rem 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #3e2678;
+  border-radius: 2rem 2rem 0 0;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-widget .login-count .login-number {
+  margin: 0rem 17.5rem 0.297rem 0rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  letter-spacing: -0.05rem;
+  color: #fbfbfc;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-widget .login-count .currency {
+  margin-top: 0.2969rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-widget .login-count .currency .currency-text {
+  margin-right: 0.8rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-widget .login-count .currency .arrow-icon {
+  margin-bottom: 0.0247rem;
+  opacity: 0.5;
+  width: 1.2rem;
+  height: 0.6999rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-widget .pricing-details-section {
+  box-sizing: border-box;
+  padding: 1.881rem 3rem 5.607rem 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-widget .pricing-details-section .price-info {
+  margin: 0rem 7.55rem 6.861rem 0rem;
+  width: calc(100% - 7.55rem);
+  height: 9.3887rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-widget .pricing-details-section .price-info .event-price {
+  margin-right: 0.35rem;
+  box-sizing: border-box;
+  padding-top: 1.0887rem;
+  height: 100%;
+  font-size: 6.777rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  letter-spacing: -0.1355rem;
+  color: #3e2678;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-widget .pricing-details-section .price-info .event-unit {
+  margin-top: 2.0457rem;
+  text-align: center;
+  font-size: 4.189rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  letter-spacing: -0.1676rem;
+  color: #3e2678;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-widget .pricing-details-section .cta-section {
+  margin: 0rem 17.7rem 0rem 0.4rem;
+  box-sizing: border-box;
+  padding: 1.45rem 3.201rem 1.35rem 4.001rem;
+  width: calc(100% - 18.1rem);
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: solid 0.2rem #432b7b;
+  background-color: #432b7b;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-widget .pricing-details-section .cta-section .cta-text {
+  margin-right: 1.8rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #45e6f7;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .pricing-details .pricing-widget .pricing-details-section .cta-section .cta-icon {
+  margin-bottom: 0.1rem;
+  width: 0.6976rem;
+  height: 1.3951rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .included-section {
+  margin: 0rem 20.077rem 5.324rem 74.788rem;
+  width: calc(100% - 94.8642rem);
+  cursor: pointer;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .included-section .whats-included-5Ff {
+  margin-right: 1.3rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #7a7a7a;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .included-section .vector-bjo {
+  width: 2.9rem;
+  height: 2.9rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .slider-container {
+  margin: 0rem 0rem 3.798rem 0.35rem;
+  width: 119.8142rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .slider-container .slider-controls {
+  margin: 0rem 0.014rem 0.966rem 0rem;
+  width: calc(100% - 0.0142rem);
+  height: 8.0186rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .slider-container .slider-controls .slider-bar {
+  width: 119.8rem;
+  height: 4.8305rem;
+  position: absolute;
+  left: 0;
+  top: 1.6424rem;
+  background-color: #ece9f1;
+  border-radius: 1rem;
+}
+.price-calculator-container .pricing-options .pricing-option .slider-container .slider-controls .slider-breaks {
+  width: 101.5305rem;
+  height: 4.8305rem;
+  position: absolute;
+  left: 0.4992rem;
+  top: 1.6424rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.price-calculator-container .pricing-options .pricing-option .slider-container .slider-controls .slider-selection {
+  width: 22.2628rem;
+  height: 4.8305rem;
+  position: absolute;
+  left: 0;
+  top: 1.6424rem;
+  background-color: #3e2678;
+  border-radius: 1rem;
+}
+.price-calculator-container .pricing-options .pricing-option .slider-container .slider-controls .slider-knob {
+  width: 33.5733rem;
+  height: 8.0186rem;
+  position: absolute;
+  left: 16.4725rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+.price-calculator-container .pricing-options .pricing-option .slider-container .slider-controls .slider-knob .slider-login-info {
+  margin-right: 3.594rem;
+  box-sizing: border-box;
+  padding: 2.222rem 3.389rem 1.997rem 2.89rem;
+  width: 12.3793rem;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/rectangle-47.png');
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .slider-container .slider-controls .slider-knob .slider-login-info .slider-login-count {
+  max-width: 6.1rem;
+  text-align: center;
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 0.6000000182;
+  text-transform: uppercase;
+  color: #3e2678;
+  font-family: Inter, 'Source Sans Pro';
+}
+.price-calculator-container .pricing-options .pricing-option .slider-container .slider-controls .slider-knob .slider-login-info .slider-login-count .login-sub-0 {
+  font-size: 2.589rem;
+  font-weight: 700;
+  line-height: 0.4866744179;
+  text-transform: uppercase;
+  color: #3e2678;
+  font-family: Inter, 'Source Sans Pro';
+}
+.price-calculator-container .pricing-options .pricing-option .slider-container .slider-controls .slider-knob .slider-login-info .slider-login-count .login-sub-2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 0.7875000238;
+  text-transform: uppercase;
+  color: #3e2678;
+  font-family: Inter, 'Source Sans Pro';
+}
+.price-calculator-container .pricing-options .pricing-option .slider-container .slider-controls .slider-knob .slider-attendee-question {
+  margin-top: 0.1644rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #3e2678;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .slider-container .slider-controls .slider-sub-section {
+  width: 18.5023rem;
+  height: 6.7627rem;
+  position: absolute;
+  left: 83.128rem;
+  top: 0.6763rem;
+}
+.price-calculator-container .pricing-options .pricing-option .slider-container .slider-scale {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .slider-container .slider-scale .slider-scale-item {
+  margin: 0rem 5.988rem 0.193rem 0rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #3e2678;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .slider-container .slider-scale .slider-scale-item {
+  margin: 0rem 9.18rem 0.193rem 0rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #3e2678;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .slider-container .slider-scale .slider-scale-item {
+  margin: 0rem 8.378rem 0rem 0rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #3e2678;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .slider-container .slider-scale .slider-scale-item {
+  margin: 0rem 13.469rem 0rem 0rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #3e2678;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .slider-container .slider-scale .slider-scale-item {
+  margin: 0rem 14.268rem 0rem 0rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #3e2678;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .slider-container .slider-scale .slider-scale-item {
+  margin: 0rem 21.154rem 0rem 0rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #3e2678;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .slider-container .slider-scale .slider-scale-item {
+  margin: 0rem 6.278rem 0rem 0rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #3e2678;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .slider-container .slider-scale .slider-scale-item {
+  margin-top: 0.1932rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #3e2678;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .upgrade-help-section {
+  margin: 0rem 5.464rem 16rem 6rem;
+  box-sizing: border-box;
+  padding: 3.874rem 10.05rem 3.874rem 12.25rem;
+  width: calc(100% - 11.4642rem);
+  height: 36.3593rem;
+  background-color: rgba(204, 204, 213, 0.400000006);
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .upgrade-help-section .upgrade-help-content {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.8rem;
+}
+.price-calculator-container .pricing-options .pricing-option .upgrade-help-section .upgrade-help-content .upgrade-help-title {
+  margin-bottom: 3.941rem;
+  font-size: 4.1rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #3e2678;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .upgrade-help-section .upgrade-help-content .upgrade-help-description {
+  margin-bottom: 3.6702rem;
+  max-width: 86.4rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.3999999762;
+  color: #4d4d6b;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .upgrade-help-section .upgrade-help-content .talk-to-us-button {
+  margin: 0 34.5rem;
+  width: calc(100% - 69rem);
+  height: 4.8rem;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5625;
+  text-transform: uppercase;
+  color: #44e6f6;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.2rem #ebebee;
+  box-sizing: border-box;
+  background-color: #3e2678;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .tech-leader-section {
+  margin: 0rem 0rem 2.23rem 0.536rem;
+  max-width: 66.2rem;
+  text-align: center;
+  font-size: 4.1rem;
+  font-weight: 700;
+  line-height: 1.3999999442;
+  color: #3e2678;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .tech-leader-section .tech-leader-subtitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 2.2959999084;
+  color: #3e2678;
+  font-family: Inter, 'Source Sans Pro';
+}
+.price-calculator-container .pricing-options .pricing-option .group-106-SU9 {
+  margin: 0rem 4.15rem 4rem 4.708rem;
+  width: calc(100% - 8.858rem);
+  height: 7.1374rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .group-106-SU9 .google-logo-colour-YXB {
+  margin: 0rem 5.567rem 1.538rem 0rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .group-106-SU9 .google-logo-colour-YXB .vector-fbo {
+  margin: 0rem 0.238rem 1.254rem 0rem;
+  width: 4.2338rem;
+  height: 4.3454rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .group-106-SU9 .google-logo-colour-YXB .vector-PXo {
+  margin: 0.294rem 0.221rem 0rem 0rem;
+  width: 2.8074rem;
+  height: 2.7985rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .group-106-SU9 .google-logo-colour-YXB .vector-7ih {
+  margin: 0.294rem 0.22rem 0rem 0rem;
+  width: 2.8074rem;
+  height: 2.7985rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .group-106-SU9 .google-logo-colour-YXB .vector-Sky {
+  margin: 1.548rem 0.363rem 0rem 0rem;
+  width: 2.6825rem;
+  height: 4.0521rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .group-106-SU9 .google-logo-colour-YXB .vector-Zqb {
+  margin: 0rem 0.258rem 1.18rem 0rem;
+  width: 0.5993rem;
+  height: 4.1007rem;
+  background-color: #34a853;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .group-106-SU9 .google-logo-colour-YXB .vector-6Kj {
+  margin-top: 0.2927rem;
+  width: 2.5809rem;
+  height: 2.7985rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .group-106-SU9 .adobe-logo-colour-2UH {
+  margin: 0rem 4.79rem 1.523rem 0rem;
+  width: 18.7247rem;
+  height: 4.874rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .group-106-SU9 .amazon-logo-colour-YSd {
+  margin: 1.554rem 4.888rem 0rem 0rem;
+  width: 18.5264rem;
+  height: 5.583rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .group-106-SU9 .layer-2-4fs {
+  margin: 0rem 4.907rem 1.502rem 0rem;
+  opacity: 0.8;
+  width: 18.5486rem;
+  height: 2.971rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .group-106-SU9 .group-199-PTF {
+  margin: 1.661rem 0rem 3.134rem 0rem;
+  height: calc(100% - 4.7954rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .group-106-SU9 .group-199-PTF .vector-89w {
+  margin-right: 0.0031rem;
+  width: 5.8397rem;
+  height: 1.9313rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .group-106-SU9 .group-199-PTF .vector-4pH {
+  margin-top: 0.122rem;
+  width: 12.5019rem;
+  height: 2.22rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .talk-to-us-zhw {
+  margin: 0rem 46.214rem 16rem 46.75rem;
+  width: calc(100% - 92.9642rem);
+  height: 4.8rem;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #44e6f6;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.2rem #ffffff;
+  box-sizing: border-box;
+  background-color: #3e2678;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 {
+  margin: 0rem 1.6rem 16rem 1.564rem;
+  width: calc(100% - 3.1642rem);
+  height: 69.9rem;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .whats-included-in-your-base-plan-xoB {
+  margin: 0rem 0rem 4rem 1.929rem;
+  text-align: center;
+  font-size: 4.189rem;
+  font-weight: 700;
+  line-height: 1.4000000182;
+  color: #3e2678;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh {
+  box-sizing: border-box;
+  padding: 3.4rem 0rem 2.9rem 0rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-top: solid 0.2rem #b9b6be;
+  border-bottom: solid 0.2rem #b9b6be;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh .base-plan-01-xwb {
+  margin: 0rem 3.6rem 3.4rem 3.8rem;
+  width: calc(100% - 7.4rem);
+  height: 3.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh .base-plan-01-xwb .agenda-content-gch {
+  margin: 0.2rem 80.5rem 0.5rem 0rem;
+  width: 25.9rem;
+  height: calc(100% - 0.7rem);
+  cursor: pointer;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #6c6a72;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh .base-plan-01-xwb .group-197-AXs {
+  width: 3.2rem;
+  height: 3.2rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh .line-4-i3b {
+  margin-bottom: 3.4rem;
+  width: 100%;
+  height: 0.2rem;
+  background-color: rgba(185, 182, 190, 0.25);
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh .base-plan-02-dwF {
+  margin: 0rem 3.6rem 3.2rem 3.8rem;
+  width: calc(100% - 7.4rem);
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh .base-plan-02-dwF .diy-drag-drop-event-app-builder-McM {
+  margin-right: 58.7rem;
+  cursor: pointer;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #6c6a72;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh .base-plan-02-dwF .group-197-fd3 {
+  width: 3.2rem;
+  height: 3.2rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh .line-5-Qad {
+  margin-bottom: 3.5rem;
+  width: 100%;
+  height: 0.2rem;
+  background-color: rgba(185, 182, 190, 0.25);
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh .base-plan-03-YRw {
+  margin: 0rem 3.6rem 3.1rem 3.8rem;
+  width: calc(100% - 7.4rem);
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh .base-plan-03-YRw .diy-drag-drop-event-app-builder-sj7 {
+  margin-right: 74.9rem;
+  cursor: pointer;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #6c6a72;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh .base-plan-03-YRw .group-197-PxM {
+  width: 3.2rem;
+  height: 3.2rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh .line-6-k2D {
+  margin-bottom: 3.6rem;
+  width: 100%;
+  height: 0.2rem;
+  background-color: rgba(185, 182, 190, 0.25);
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh .base-plan-04-teD {
+  margin: 0rem 3.6rem 3rem 3.8rem;
+  width: calc(100% - 7.4rem);
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh .base-plan-04-teD .diy-drag-drop-event-app-builder-p25 {
+  margin-right: 70.8rem;
+  cursor: pointer;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #6c6a72;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh .base-plan-04-teD .group-197-j93 {
+  width: 3.2rem;
+  height: 3.2rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh .line-7-sm3 {
+  margin-bottom: 3.4rem;
+  width: 100%;
+  height: 0.2rem;
+  background-color: rgba(185, 182, 190, 0.25);
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh .base-plan-05-Dpu {
+  margin: 0rem 3.6rem 2.6rem 3.9rem;
+  width: calc(100% - 7.5rem);
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh .base-plan-05-Dpu .x-7-customer-care-xXb {
+  margin: 0rem 58.4rem 1.3rem 0rem;
+  width: 47.9rem;
+  cursor: pointer;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #6c6a72;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh .base-plan-05-Dpu .group-197-e9X {
+  margin-top: 0.6rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh .line-8-ZnH {
+  margin-bottom: 3.3rem;
+  width: 100%;
+  height: 0.2rem;
+  background-color: rgba(185, 182, 190, 0.25);
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh .base-plan-06-7Yu {
+  margin: 0rem 3.6rem 2.7rem 3.9rem;
+  width: calc(100% - 7.5rem);
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh .base-plan-06-7Yu .x-7-customer-care-qzh {
+  margin: 0rem 58.4rem 1.3rem 0rem;
+  width: 47.9rem;
+  cursor: pointer;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #6c6a72;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .frame-197-F85 .group-258-fSh .base-plan-06-7Yu .group-197-x3j {
+  margin-top: 0.6rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .group-257-3L5 {
+  margin: 0rem 1.214rem 0rem 1.75rem;
+  box-sizing: border-box;
+  padding: 7.878rem 7.9rem 8.822rem 6.4rem;
+  width: calc(100% - 2.9642rem);
+  height: 28.2rem;
+  display: flex;
+  align-items: center;
+  background-color: #3e2678;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .group-257-3L5 .question-not-answered-or-have-a-custom-request--8cR {
+  margin-right: 24.5rem;
+  max-width: 54.4rem;
+  font-size: 4.1rem;
+  font-weight: 700;
+  line-height: 1.3999999442;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .pricing-option .group-257-3L5 .talk-to-us-on-purple-cXb {
+  margin: 3.025rem 0rem 2.875rem 0rem;
+  width: 24rem;
+  height: calc(100% - 5.9rem);
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 2.133rem;
+  font-weight: 700;
+  line-height: 1.1720581383;
+  text-transform: uppercase;
+  color: #3e2678;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.2rem #3e2678;
+  box-sizing: border-box;
+  background-color: #44e6f6;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.price-calculator-container .pricing-options .nunify-QCZ {
+  width: 14.1626rem;
+  height: 5rem;
+  position: absolute;
+  left: 35.75rem;
+  top: 1.452rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.price-calculator-container .pricing-options .line-12-Joj {
+  width: 192rem;
+  height: 0.1rem;
+  position: absolute;
+  left: 0;
+  top: 7.952rem;
+  background-color: #9e92bb;
+}
+.price-calculator-container .auto-group-nngo-zwT {
+  margin-right: 14.6609rem;
+  width: 10rem;
+  height: 390.1298rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.price-calculator-container .auto-group-nngo-zwT .rectangle-218-vKK {
+  margin-bottom: 0.0361rem;
+  width: 100%;
+  height: 97.5234rem;
+  background-color: #d9d9d9;
+  flex-shrink: 0;
+}
+.price-calculator-container .auto-group-nngo-zwT .rectangle-219-eWD {
+  width: 100%;
+  height: 97.5234rem;
+  background-color: #858585;
+  flex-shrink: 0;
+}
+.price-calculator-container .auto-group-nngo-zwT .rectangle-220-o8D {
+  margin-bottom: 0rem;
+  width: 100%;
+  height: 97.5234rem;
+  background-color: #d9d9d9;
+  flex-shrink: 0;
+}
+.price-calculator-container .auto-group-nngo-zwT .rectangle-221-8gH {
+  width: 100%;
+  height: 97.5234rem;
+  background-color: #858585;
+  flex-shrink: 0;
+}
